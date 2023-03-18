@@ -1,29 +1,3 @@
-# ========================================================================    Test cases    =============================================================================
-
-'''
-Important: Make sure you are in the same directory in terminal where your 'main.py' file is present before running the test cases !!!!
-
-Testcase 1:
-python main.py --link "https://en.wikipedia.org/wiki/India" --keywords "Biodiversity" --model "text-ada-001"
-
-************************************************************************************************************************************************************************
-
-Testcase 2:
-python main.py --link "https://en.wikipedia.org/wiki/India" --keywords "Biodiversity" --out "india-biodiversity-ada-summary.json" --model "text-ada-001"
-
-************************************************************************************************************************************************************************
-
-Testcase 3:
-python main.py --link "https://en.wikipedia.org/wiki/India" --keywords "Biodiversity" --out "india-biodiversity-davinci-summary.json" --model "text-davinci-003"
-
-************************************************************************************************************************************************************************
-
-Testcase 4:
-python main.py --link "https://en.wikipedia.org/wiki/India" --keywords "Biodiversity" --out "india-biodiversity-gpt-3.5-summary.json" --model "gpt-3.5-turbo"
-
-************************************************************************************************************************************************************************
-'''
-
 # ========================================================================    Fetching API key from .env file    ==================================================
 
 from dotenv import load_dotenv
