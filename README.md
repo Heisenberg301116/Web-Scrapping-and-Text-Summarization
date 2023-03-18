@@ -4,8 +4,14 @@ Scrapping a website using Beautiful Soup and summarizing the content of a webpag
 ************************************************************************************************************************************************************************
 
 Important: 
+
 1) The application accepts test cases only through command line.
 2) Make sure your presently working directly in the terminal is same as the one where main.py file is present before running the below test cases !!!
+3) The following are the input flags that a user has to specify to run the application:
+   a) --link: The wikipedia link from where you have to scrap content.                    (mandatory)
+   b) --keywords: The section in the wikipedia page which you want to scrap               (mandatory)
+   c) --model: The OpenAI text summarization model which you want to use.                 (mandatory)
+   d) --out: The name of the .json file where ypu want to store the generated summary.    (not mandatory)
 
 ************************************************************************************************************************************************************************
 
