@@ -4,7 +4,7 @@ Scrapping a website using Beautiful Soup and summarizing the content of a webpag
 ************************************************************************************************************************************************************************
 
 Important: 
-1) Create a '.env' file in the project's directory and write ypur OpenAI API key into it. Refer 'sample.env' file to know the syntax.
+1) Create a '.env' file in the project's directory and write your OpenAI API key into it. Refer 'sample.env' file to know the syntax.
 2) The application accepts test cases only through command line.
 3) Make sure your presently working directly in the terminal is same as the one where main.py file is present before running the below test cases !!!
 4) The following are the input flags that a user has to specify to run the application:
