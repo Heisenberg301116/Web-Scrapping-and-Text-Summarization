@@ -11,7 +11,7 @@ Important:
    a) --link: The wikipedia link from where you have to scrap content.                    (mandatory)
    b) --keywords: The section in the wikipedia page which you want to scrap               (mandatory)
    c) --model: The OpenAI text summarization model which you want to use.                 (mandatory)
-   d) --out: The name of the .json file where ypu want to store the generated summary.    (not mandatory)
+   d) --out: The name of the .json file where you want to store the generated summary.    (optional)
 
 ************************************************************************************************************************************************************************
 
